@@ -104,6 +104,7 @@
     /// Show a new notification to the user.
     /// </summary>
     /// <param name="notification"></param>
+    /// <param name="view"></param>
     public void ShowNotification(NotificationViewModel notification, Visual view)
     {
       ////Visually Debug this window with the color
