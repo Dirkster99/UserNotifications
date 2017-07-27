@@ -1,6 +1,6 @@
 # WPF Notifications
 
-Download from [nuget[(https://preview.nuget.org/packages/Dirkster.UserNotifications)
+Download from (nuget)[https://preview.nuget.org/packages/Dirkster.UserNotifications]
 
 ## Description
 
