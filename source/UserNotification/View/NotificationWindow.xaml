@@ -9,8 +9,9 @@
         xmlns:viewmodel="clr-namespace:UserNotification.ViewModel"
         xmlns:view="clr-namespace:UserNotification.View"
         xmlns:localiz="clr-namespace:UserNotification.Local"
+        xmlns:reskeys="clr-namespace:UserNotification.Themes"
         
-        Title="Notifiactions"
+        Title="Notifications"
         Focusable="False"
         ShowActivated="False"
         AllowsTransparency="True"
@@ -36,9 +37,9 @@
       <DataTemplate DataType="Model:Notification">
         <Grid x:Name="NotificationWindow" Tag="{Binding Path=Id, NotifyOnTargetUpdated=True}" Background="Transparent" SizeChanged="NotificationWindowSizeChanged">
           <Border Name="border"
-                  Background="{DynamicResource NotificationWindowBackground}"
+                  Background="{DynamicResource {x:Static reskeys:ResourceKeys.NotificationWindowBackground}}"
                   BorderThickness="1"
-                  BorderBrush="{DynamicResource NotificationWindowBorder}"
+                  BorderBrush="{DynamicResource {x:Static reskeys:ResourceKeys.NotificationWindowBorder}}"
                   CornerRadius="2" Margin="10">
             <Border.Effect>
               <DropShadowEffect ShadowDepth="0" Opacity="0.8" BlurRadius="10"/>
@@ -61,7 +62,7 @@
                          TextOptions.TextRenderingMode="ClearType"
                          TextOptions.TextFormattingMode="Display"
                          TextWrapping="Wrap" TextTrimming="CharacterEllipsis" 
-                         Foreground="{DynamicResource NotificationWindowForeground}" 
+                         Foreground="{DynamicResource {x:Static reskeys:ResourceKeys.NotificationWindowForeground}}" 
                          FontFamily="Arial" FontSize="14" FontWeight="Bold"
                          VerticalAlignment="Top"  Margin="2,4,4,2" />
 
@@ -74,7 +75,7 @@
                          TextOptions.TextRenderingMode="ClearType"
                          TextOptions.TextFormattingMode="Display"                          
                          TextWrapping="Wrap" TextTrimming="CharacterEllipsis"
-                         Foreground="{DynamicResource NotificationWindowForeground}" 
+                         Foreground="{DynamicResource {x:Static reskeys:ResourceKeys.NotificationWindowForeground}}" 
                          FontFamily="Arial" VerticalAlignment="Top"
                          Margin="2,2,4,4"/>
             </Grid>

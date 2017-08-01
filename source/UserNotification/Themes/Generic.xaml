@@ -1,14 +1,14 @@
 <ResourceDictionary
-  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
 
-  <!-- Load Control Definitions by Default
+    <!-- Load Control Definitions by Default
 
        Tip: A consuming application wanting to use the themed message box version
-            has to load a color brush file DarkBrushes.xaml or LightBrushes.xaml
+            should load a color brush file DarkBrushs.xaml or LightBrushs.xaml
             in its Application Resources section(!)
    -->
-	<ResourceDictionary.MergedDictionaries>
-    <ResourceDictionary Source="/UserNotification;component/Resources/CloseButtonStyle.xaml" />
-  </ResourceDictionary.MergedDictionaries>
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="/UserNotification;component/Resources/CloseButtonStyle.xaml" />
+        <ResourceDictionary Source="/UserNotification;component/Themes/LightBrushs.xaml" />
+    </ResourceDictionary.MergedDictionaries>
 </ResourceDictionary>
