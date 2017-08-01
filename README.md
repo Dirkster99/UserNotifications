@@ -1,6 +1,6 @@
-# WPF Notifications
-
-## Description
+[![Release](https://img.shields.io/github/release/Dirkster99/UserNotifications.svg)](https://github.com/Dirkster99/UserNotifications/releases/latest)
+[![NuGet](https://img.shields.io/nuget/dt/Dirkster.UserNotifications.svg)](http://nuget.org/packages/Dirkster.UserNotifications)
+## Overview
 
 Lightweight notifications for WPF project based on
 
