@@ -10,3 +10,7 @@ http://www.codeproject.com/Articles/499241/Growl-Alike-WPF-Notifications
 ## Requirements
 
  - Visual Studio 2012 / 2010 or later
+
+![Screenshot](https://github.com/Dirkster99/Docu/blob/master/UserNotifications/screenshot1.png?raw=true)
+![Screenshot](https://github.com/Dirkster99/Docu/blob/master/UserNotifications/screenshot2.png?raw=true)
+![Screenshot](https://github.com/Dirkster99/Docu/blob/master/UserNotifications/screenshot3.png?raw=true)
