@@ -1,3 +1,5 @@
+00_Release/
+01_Nuget/
 debug/
 release/
 build/
@@ -15,4 +17,3 @@ tmp/
 *.sou
 *.suo
 *.sqlite
-Edi/MiniUML.Plugins/MiniUML.Plugins.UmlClassDiagram.dll
