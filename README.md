@@ -1,3 +1,4 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/a4gtps078k9fnp9i?svg=true)](https://ci.appveyor.com/project/Dirkster99/usernotifications)
 [![Release](https://img.shields.io/github/release/Dirkster99/UserNotifications.svg)](https://github.com/Dirkster99/UserNotifications/releases/latest)
 [![NuGet](https://img.shields.io/nuget/dt/Dirkster.UserNotifications.svg)](http://nuget.org/packages/Dirkster.UserNotifications)
 ## Overview
