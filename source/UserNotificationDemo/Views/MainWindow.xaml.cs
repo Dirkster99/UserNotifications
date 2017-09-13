@@ -1,4 +1,4 @@
-﻿namespace UserNotificationDemo.View
+﻿namespace UserNotificationDemo.Views
 {
   using System.Windows;
   using UserNotification.View;

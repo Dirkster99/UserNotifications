@@ -17,3 +17,4 @@ tmp/
 *.sou
 *.suo
 *.sqlite
+/source/.vs/UserNotification/v15/sqlite3/storage.ide
