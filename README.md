@@ -5,6 +5,8 @@
 
 Lightweight notifications for WPF project based on
 
+![](https://raw.githubusercontent.com/Dirkster99/Docu/master/UserNotifications/screenshots.png)
+
 Lightweight growl notifications for WPF project from here:
 http://www.codeproject.com/Articles/499241/Growl-Alike-WPF-Notifications
 
