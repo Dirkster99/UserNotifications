@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <OutputType>Library</OutputType>
-    <TargetFrameworks>net45;netcoreapp3.0</TargetFrameworks>
+    <TargetFrameworks>net40;netcoreapp3.0</TargetFrameworks>
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
@@ -16,11 +16,21 @@
     <FileVersion>1.5.0.0</FileVersion>
   </PropertyGroup>
 
-  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
-       Other similar extension points exist, see Microsoft.Common.targets.
-  <Target Name="BeforeBuild">
-  </Target>
-  <Target Name="AfterBuild">
-  </Target>
-  -->
+
+  <!-- Begin issue 255: The following section can be removed penging the bug: https://github.com/dotnet/wpf/issues/255 -->
+  <PropertyGroup>
+    <DisableImplicitFrameworkReferences Condition="'$(TargetFramework)' == 'net40' or '$(TargetFramework)' == 'net35'">true</DisableImplicitFrameworkReferences>
+  </PropertyGroup>
+
+  <ItemGroup Condition="'$(TargetFramework)' == 'net40'">
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Xaml" />
+  </ItemGroup>
+  <!-- End issue 255 -->
+
 </Project>
