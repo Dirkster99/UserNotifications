@@ -14,7 +14,7 @@ dotnet_csproj:
   informational_version: '{version}'
   
 before_build:
-  - cmd: nuget restore source/AvalonDock.sln
+  - cmd: nuget restore source/UserNotification.sln
 
 build:
   verbosity: minimal
