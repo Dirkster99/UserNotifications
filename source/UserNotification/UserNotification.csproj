@@ -9,17 +9,22 @@
   <PropertyGroup>
     <AssemblyTitle>UserNotification</AssemblyTitle>
     <PackageId>Dirkster.UserNotifications</PackageId>
-    <Product>Themable user notifications through pop-up elements</Product>
+    <Product>UserNotification</Product>
     <Copyright>2012 - 2018</Copyright>
     <Company>Open Source</Company>
-    <Description>https://github.com/Dirkster99/Edi</Description>
-    <VersionPrefix>1.5.0</VersionPrefix>
-    <VersionSuffix>alpha</VersionSuffix>
+    <Description>Themable user notifications WPF control through pop-up elements</Description>
+    <VersionPrefix>1.5.1</VersionPrefix>
+    <PackageProjectUrl>https://github.com/Dirkster99/UserNotification</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Dirkster99/UserNotification</RepositoryUrl>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageIconUrl>https://raw.githubusercontent.com/Dirkster99/UserNotifications/master/LightSwitch_64x.png</PackageIconUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageReleaseNotes>Package Update with support based on .NetCore 3 Preview 8 and .Net4.5.</PackageReleaseNotes>
+    <NeutralLanguage>en</NeutralLanguage>
   </PropertyGroup>
 
-
   <!-- Begin issue 255: The following section can be removed penging the bug: https://github.com/dotnet/wpf/issues/255 -->
-  <PropertyGroup>
+  <!-- PropertyGroup>
     <DisableImplicitFrameworkReferences Condition="'$(TargetFramework)' == 'net40' or '$(TargetFramework)' == 'net35'">true</DisableImplicitFrameworkReferences>
   </PropertyGroup>
 
@@ -32,6 +37,6 @@
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Xaml" />
   </ItemGroup>
-  <!-- End issue 255 -->
+  < End issue 255 -->
 
 </Project>
