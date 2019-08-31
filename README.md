@@ -2,7 +2,7 @@
 [![Release](https://img.shields.io/github/release/Dirkster99/UserNotifications.svg)](https://github.com/Dirkster99/UserNotifications/releases/latest)
 [![NuGet](https://img.shields.io/nuget/dt/Dirkster.UserNotifications.svg)](http://nuget.org/packages/Dirkster.UserNotifications)
 
-![Net4](https://badgen.net/badge/Framework/.Net&nbsp;4/blue)![NetCore3](https://badgen.net/badge/Framework/NetCore&nbsp;3/blue)
+![Net4](https://badgen.net/badge/Framework/.Net&nbsp;4/blue) ![NetCore3](https://badgen.net/badge/Framework/NetCore&nbsp;3/blue)
 
 ## Overview
 
